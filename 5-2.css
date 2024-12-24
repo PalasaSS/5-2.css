@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07081A;
+}
+
+.header-main-div {
+    display:inline-flex;
+    padding: 28px 200px 0px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 667px;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#logo {
+    width: 32px;
+    height: 36px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#home {
+    color: #8CE900;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
